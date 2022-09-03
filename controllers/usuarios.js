@@ -3,7 +3,6 @@ const bcryptjs = require('bcryptjs');
 
 const Usuario = require('../models/usuario');
 
-
 const usuariosGet = (req = request, res = response) => {
 
     const {q, nombre = 'No name', apikey, page = 1, limit = 5} = req.query;
